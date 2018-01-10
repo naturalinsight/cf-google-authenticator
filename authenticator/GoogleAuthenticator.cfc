@@ -175,7 +175,7 @@ component output="false" {
     */
     public string function Base32decodeString (required any string, string encoding = "utf-8")
     {
-        return charsetEncode(base32decode(string), encoding);//createObject("java", "java.lang.String").init(base32decode(string));
+        return charsetEncode(base32decode(string), encoding);
     }
 
     private numeric function getCurrentTime()
